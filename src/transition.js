@@ -73,9 +73,6 @@ var Transition = Barba.BaseTransition.extend({
         }
       }, transitionLength);
 
-      // Scroll to top
-      document.body.scrollTop = 0;
-
       // Done
       x.done();
 
